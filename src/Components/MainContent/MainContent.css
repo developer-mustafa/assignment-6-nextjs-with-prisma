@@ -1,0 +1,109 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5%;
+  background: rgb(86, 253, 158);
+  background: radial-gradient(
+    circle,
+    rgb(226, 132, 173) 0%,
+    rgb(104, 173, 253) 100%
+  );
+}
+
+.first-content {
+  border-radius: 10px;
+  width: 500px;
+  padding: 15px;
+}
+.second-content {
+  border-radius: 10px;
+  width: 500px;
+}
+
+.first-content textarea {
+  width: 90%;
+  height: 100px;
+  margin: auto;
+  display: block;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.first-content textarea:focus {
+  outline-color: rgb(27, 217, 9);
+}
+.button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.save-btn {
+  margin-top: 1rem;
+  display: block;
+  padding: 10px 15px;
+  border: 0;
+  background-color: rgb(14, 151, 2);
+
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.save-btn:hover {
+  background-color: #396cf8;
+  color: white;
+}
+.clear-btn {
+  margin-top: 1rem;
+  display: block;
+  padding: 10px 15px;
+  border: 0;
+  background-color: rgb(240, 43, 69);
+  color: white;
+  font-weight: 500;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+.clear-btn:hover {
+  background-color: #396cf8;
+}
+.show-text {
+  font-size: 1.3rem;
+  margin-top: 10px;
+}
+.text-highlight {
+  color: rgb(21, 206, 8);
+  font-weight: bold;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  font-size: 1.1rem;
+}
+
+.card {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 20px;
+  width: 100%;
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card-info {
+  margin: 0;
+  padding: 5px 0;
+  font-weight: bold;
+  color: rgb(21, 206, 8);
+}
+
+.card-label {
+  color: rgb(80, 166, 246);
+}

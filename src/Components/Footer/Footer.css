@@ -1,0 +1,27 @@
+.footer {
+  background-color: #0a0129;
+  color: #fff;
+  padding: 20px;
+  height: 150px;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-info {
+  margin: 0;
+  padding: 5px 0;
+}
+
+.footer-label {
+  font-weight: bold;
+  text-align: center;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: rgb(100, 185, 250);
+}
