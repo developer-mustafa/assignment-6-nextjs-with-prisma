@@ -33,7 +33,7 @@ const studentInfo = {
     <>
       <div className="main">
         <div className="first-content bg-dark">
-          <textarea value={text} onChange={handleChange} />
+          <textarea value={text} onChange={handleChange} placeholder="Type Here..." />
           <div className="button-container">
             <button className="save-btn" onClick={handleButtonClick}>Save Text</button>
             <button className="clear-btn" onClick={handleButtonClear}>Clear Text</button>
